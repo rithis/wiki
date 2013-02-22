@@ -41,3 +41,18 @@ modules.exports.c = c
 modules.exports.longModuleName = longModuleName
 modules.exports.shortName = shortName
 ```
+
+```coffeescript
+# good
+return a() if b
+return c() if d
+e()
+
+# bad
+if b
+  a()
+else if d
+  c()
+else
+  e()
+```
