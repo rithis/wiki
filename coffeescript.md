@@ -1,4 +1,4 @@
-```
+```coffeescript
 # good
 longModuleName = require "longModuleName"
 shortName = require "shortName"
