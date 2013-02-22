@@ -11,3 +11,17 @@ longVariableName = 1
 longVariableName = 1
 short            = 2
 ```
+
+```coffeescript
+# good
+stringVariable = "string"
+
+# good
+stringVariable = "#{a}#{b}"
+
+# bad
+stringVariable = 'string'
+
+# bad
+stringVariable = a + b
+```
