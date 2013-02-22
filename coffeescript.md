@@ -25,3 +25,19 @@ stringVariable = 'string'
 # bad
 stringVariable = a + b
 ```
+
+```coffeescript
+# good
+modules.exports.a = a
+modules.exports.b = b
+modules.exports.c = c
+
+# bad
+modules.exports.b = b
+modules.exports.a = a
+modules.exports.c = c
+
+# bad
+modules.exports.longModuleName = longModuleName
+modules.exports.shortName = shortName
+```
