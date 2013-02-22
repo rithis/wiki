@@ -1,13 +1,13 @@
 ```coffeescript
 # good
-longModuleName = require "longModuleName"
-shortName = require "shortName"
+longVariableName = 1
+short = 2
 
 # bad
-shortName = require "shortName"
-longModuleName = require "longModuleName"
+short = 2
+longVariableName = 1
 
 # bad
-longModuleName = require "longModuleName"
-shortName      = require "shortName"
+longVariableName = 1
+short            = 2
 ```
