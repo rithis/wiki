@@ -53,4 +53,5 @@ font-size
 font-weight
 font-style
 color
+cursor
 ```
