@@ -34,6 +34,7 @@ border-radius
 image
 svg
 background
+background-color
 background-image
 background-repeat
 background-position
