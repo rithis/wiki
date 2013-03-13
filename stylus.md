@@ -46,6 +46,7 @@ line-height
 text-align
 text-decoration
 text-shadow
+vertical-align
 font
 font-family
 src
