@@ -9,6 +9,7 @@ right
 bottom
 left
 float
+clear
 display
 width
 max-width
